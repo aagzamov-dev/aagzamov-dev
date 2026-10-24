@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Abdurashid — full-stack developer focused on problem solving, system design, and applied AI." />
+  <picture>
+    <img src="./assets/header.svg" width="100%" alt="Abdurashid — full-stack developer focused on problem solving, system design, and applied AI." />
+  </picture>
 </p>
 
 <h3 align="center">Understand the problem. Design the system. Build the solution.</h3>
@@ -36,7 +38,9 @@ I also work with **Python, LLMs, and retrieval-augmented generation (RAG)**. I u
 ### 01 · Core stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=laravel,dotnet,react,ts&amp;theme=dark" width="217" alt="Laravel, .NET, React, and TypeScript" />
+  <picture>
+    <img src="https://skillicons.dev/icons?i=laravel,dotnet,react,ts&amp;theme=dark" width="217" alt="Laravel, .NET, React, and TypeScript" />
+  </picture>
 </p>
 
 **Laravel · .NET · React · TypeScript**  
@@ -45,7 +49,9 @@ Backend services, application logic, APIs, and typed frontend interfaces.
 ### 02 · In active use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cs,rust,swift,py,tauri&amp;theme=dark" width="273" alt="C#, Rust, Swift, Python, and Tauri" />
+  <picture>
+    <img src="https://skillicons.dev/icons?i=cs,rust,swift,py,tauri&amp;theme=dark" width="273" alt="C#, Rust, Swift, Python, and Tauri" />
+  </picture>
 </p>
 
 **C# · Rust · Swift · Python · Tauri**  
@@ -54,7 +60,9 @@ Windows desktop development with C#/.NET, native macOS tools with Swift, cross-p
 ### 03 · Data & infrastructure
 
 <p>
-  <img src="https://skillicons.dev/icons?i=kafka,redis,postgres,sqlite,docker&amp;theme=dark" width="273" alt="Apache Kafka, Redis, PostgreSQL, SQLite, and Docker" />
+  <picture>
+    <img src="https://skillicons.dev/icons?i=kafka,redis,postgres,sqlite,docker&amp;theme=dark" width="273" alt="Apache Kafka, Redis, PostgreSQL, SQLite, and Docker" />
+  </picture>
 </p>
 
 **Apache Kafka · Redis · PostgreSQL · SQLite · Docker**  
