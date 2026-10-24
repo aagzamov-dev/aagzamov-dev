@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="268" viewBox="0 0 960 268" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Abdurashid — full-stack developer</title>
+  <desc id="desc">A dark blue developer card with a subtle animated signal moving between interface, logic, and data.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="960" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1728"/><stop offset="1" stop-color="#10131C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="48" y1="0" x2="912" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64D8CB"/><stop offset="0.55" stop-color="#78A9FF"/><stop offset="1" stop-color="#B7A0FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8BA9D4" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="corners"><rect x="1" y="1" width="958" height="266" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .label { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .signal { stroke-dasharray: 34 830; animation: travel 10s linear infinite; }
+    .status { animation: pulse 5s ease-in-out infinite; }
+    @keyframes travel { to { stroke-dashoffset: -864; } }
+    @keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .status { animation: none; } }
+  </style>
+  <g clip-path="url(#corners)">
+    <rect width="960" height="268" fill="url(#surface)"/>
+    <rect width="960" height="268" fill="url(#grid)"/>
+    <path d="M48 1H912" stroke="url(#accent)" stroke-width="2"/>
+    <circle class="status" cx="53" cy="39" r="4" fill="#64D8CB"/>
+    <text class="label" x="68" y="44" fill="#A9B8CF" font-size="12" letter-spacing="2">FULL-STACK DEVELOPER</text>
+    <text class="label" x="912" y="44" text-anchor="end" fill="#A9B8CF" font-size="12">@aagzamov-dev</text>
+    <text x="46" y="125" fill="#F0F5FF" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="650" letter-spacing="-2">Abdurashid</text>
+    <text class="label" x="50" y="158" fill="#A9B8CF" font-size="16" letter-spacing="1">PROBLEM SOLVING / SYSTEM DESIGN / AI</text>
+    <path d="M48 212H912" stroke="#29354A" stroke-width="2"/>
+    <path class="signal" d="M48 212H912" stroke="url(#accent)" stroke-width="2"/>
+    <g fill="#101827" stroke="#78A9FF" stroke-width="2">
+      <circle cx="53" cy="212" r="5"/><circle cx="480" cy="212" r="5"/><circle cx="907" cy="212" r="5"/>
+    </g>
+    <g class="label" fill="#A9B8CF" font-size="11" letter-spacing="2">
+      <text x="48" y="242">INTERFACE</text><text x="480" y="242" text-anchor="middle">LOGIC</text><text x="912" y="242" text-anchor="end">DATA</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="267" rx="20" stroke="#283449"/>
+</svg>
